@@ -32,6 +32,9 @@ dev = [
   "pytest>=7.0"
 ]
 
+[tool.setuptools]
+packages = ["featurematch"]
+
 [tool.setuptools.package-data]
 featurematch = []
 
