@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "featurematch"
+version = "0.1.0"
+description = "FeatureMatch — Cosine-based cross-representation feature alignment (v0.1)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Course Correct Labs" }]
+keywords = ["interpretability", "representation learning", "SAE", "alignment", "cosine"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+dependencies = [
+  "torch>=2.0.0",
+  "numpy>=1.24",
+  "matplotlib>=3.7"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.0"
+]
+
+[tool.setuptools.package-data]
+featurematch = []
+
+[tool.pytest.ini_options]
+addopts = "-q"
