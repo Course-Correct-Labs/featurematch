@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "FeatureMatch"
+version: "0.1.0"
+date-released: 2025-10-21
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "DeVilling"
+    given-names: "Bentley"
+    affiliation: "Course Correct Labs"
+repository-code: "https://github.com/Course-Correct-Labs/featurematch"
+license: "MIT"
+preferred-citation:
+  type: software
+  title: "FeatureMatch v0.1.0"
+  authors:
+    - family-names: "DeVilling"
+      given-names: "Bentley"
+  institution: "Course Correct Labs"
+  year: 2025
